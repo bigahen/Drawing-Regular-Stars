@@ -22,19 +22,6 @@ public class Star {
 		point4.setY((int)(point1.getY() + (width*Math.sin(72*Math.PI/180))));
 		point5.setY((int)(point1.getY() + (width*Math.tan(36*Math.PI/180)/2)));
 		
-		
-		//submitted algorithm for calculating star locations
-		
-		/*point2.setX(point1.getX() + (width/2));
-		point3.setX(point1.getX() + (width/3));
-		point4.setX(point1.getX() - (width/3));
-		point5.setX(point1.getX() - (width/2));
-		
-		point2.setY(point1.getY() + (width/3));
-		point3.setY(point1.getY() + ((width*6/7)));
-		point4.setY(point1.getY() + ((width*6/7)));
-		point5.setY(point1.getY() + (width/3)); */
-		
 	}
 	
 	public Point getPoint1(){
